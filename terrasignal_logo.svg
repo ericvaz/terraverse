@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" width="520" height="160">
+  <defs>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d9b8f"/>
+      <stop offset="100%" stop-color="#1a5fb4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pin -->
+  <g transform="translate(20, 16)">
+    <path d="M 60 4 C 90 4, 114 28, 114 58 C 114 90, 60 160, 60 160 C 60 160, 6 90, 6 58 C 6 28, 30 4, 60 4 Z" fill="url(#pinGrad)"/>
+    <circle cx="60" cy="58" r="30" fill="#ffffff"/>
+    <circle cx="60" cy="58" r="21" fill="none" stroke="#2d9b8f" stroke-width="3"/>
+    <circle cx="60" cy="58" r="9" fill="#2d9b8f"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="160" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="400" fill="#2c2c2c" letter-spacing="-0.5">TerraSignal</text>
+  <text x="475" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#2c2c2c">&#8482;</text>
+</svg>
